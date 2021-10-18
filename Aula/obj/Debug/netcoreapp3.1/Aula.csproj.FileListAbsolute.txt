@@ -1,0 +1,14 @@
+C:\Users\igori\Documents\Csharp\Aula\Aula\bin\Debug\netcoreapp3.1\Aula.exe
+C:\Users\igori\Documents\Csharp\Aula\Aula\bin\Debug\netcoreapp3.1\Aula.deps.json
+C:\Users\igori\Documents\Csharp\Aula\Aula\bin\Debug\netcoreapp3.1\Aula.runtimeconfig.json
+C:\Users\igori\Documents\Csharp\Aula\Aula\bin\Debug\netcoreapp3.1\Aula.runtimeconfig.dev.json
+C:\Users\igori\Documents\Csharp\Aula\Aula\bin\Debug\netcoreapp3.1\Aula.dll
+C:\Users\igori\Documents\Csharp\Aula\Aula\bin\Debug\netcoreapp3.1\Aula.pdb
+C:\Users\igori\Documents\Csharp\Aula\Aula\obj\Debug\netcoreapp3.1\Aula.csproj.AssemblyReference.cache
+C:\Users\igori\Documents\Csharp\Aula\Aula\obj\Debug\netcoreapp3.1\Aula.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\igori\Documents\Csharp\Aula\Aula\obj\Debug\netcoreapp3.1\Aula.AssemblyInfoInputs.cache
+C:\Users\igori\Documents\Csharp\Aula\Aula\obj\Debug\netcoreapp3.1\Aula.AssemblyInfo.cs
+C:\Users\igori\Documents\Csharp\Aula\Aula\obj\Debug\netcoreapp3.1\Aula.csproj.CoreCompileInputs.cache
+C:\Users\igori\Documents\Csharp\Aula\Aula\obj\Debug\netcoreapp3.1\Aula.dll
+C:\Users\igori\Documents\Csharp\Aula\Aula\obj\Debug\netcoreapp3.1\Aula.pdb
+C:\Users\igori\Documents\Csharp\Aula\Aula\obj\Debug\netcoreapp3.1\Aula.genruntimeconfig.cache
