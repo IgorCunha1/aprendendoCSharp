@@ -6,7 +6,7 @@ namespace Aula
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Aqui está!");
+            Console.WriteLine("Aqui está uma nova feature!");
         }
     }
 }
