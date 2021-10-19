@@ -7,14 +7,16 @@ namespace Aula
         static void Main(string[] args)
         {
 
-            ContaCorrente conta = new ContaCorrente();
+            ContaCorrente conta = new ContaCorrente("igor", 112, 123, 123.0);
+            ContaCorrente contaDois = new ContaCorrente("Joao", 112, 123, 123.99);
 
-            conta.setTitular("Igor");
-            conta.setSaldo(100.0);
+            ContaCorrente[] cc = { conta, contaDois };
 
-            Console.WriteLine(conta.getTitular());
-            conta.Sacar(10);
-            Console.WriteLine(conta.getSaldo());
+            foreach(ContaCorrente contas in cc)
+            {
+                System.Console.Write(contas.ToString());
+            }
+
 
         }
     }
