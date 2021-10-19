@@ -1,8 +1,10 @@
 ﻿using System;
+using Aula;
+
+
 class ContaCorrente
 {
-
-    private string titular;
+    public Cliente titular;
     private int agencia;
     private int numero;
     private double saldo;
@@ -12,7 +14,7 @@ class ContaCorrente
 
     }
 
-    public ContaCorrente(string titular, int agencia, int numero, double saldo)
+    public ContaCorrente(Cliente titular, int agencia, int numero, double saldo)
     {
         this.titular = titular;
         this.agencia = agencia;
@@ -26,14 +28,14 @@ class ContaCorrente
         return "Titular: " + this.titular + " Agencia: " + this.agencia + " Numero: " + this.numero + " Saldo = " + this.saldo;
     }
 
-    public void setTitular(string titular)
+    public void setTitular(Cliente titular)
     {
         this.titular = titular;
     }
 
     public string getTitular()
     {
-        return this.titular;
+        return this.titular.ToString();
     }
 
     public void setAgencia(int agencia)
