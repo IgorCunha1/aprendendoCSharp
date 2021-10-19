@@ -1,7 +1,6 @@
 ﻿using System;
 class ContaCorrente
 {
-
     private string titular;
     private int agencia;
     private int numero;
