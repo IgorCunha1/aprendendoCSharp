@@ -6,8 +6,27 @@ class ContaCorrente
     private int agencia;
     private int numero;
     private double saldo;
-    
-    
+
+    public ContaCorrente()
+    {
+
+    }
+
+    public ContaCorrente(string titular, int agencia, int numero, double saldo)
+    {
+        this.titular = titular;
+        this.agencia = agencia;
+        this.numero = numero;
+        this.saldo = saldo;
+
+
+    }
+
+    public override string ToString()
+    {
+        return "Titular: " + this.titular + " Agencia: " + this.agencia + " Numero: " + this.numero + " Saldo = " + this.saldo;
+    }
+
     public void setTitular(string titular)
     {
         this.titular = titular;
@@ -58,6 +77,20 @@ class ContaCorrente
         }
         
     }
+
+    public void Depositar(double valor)
+    {
+        if(valor <= 0)
+        {
+            Console.WriteLine("Deposite um valor maior que 0");
+        }
+        else
+        {
+            this.saldo += valor;
+        }
+    }
+
+
 
 
 }
