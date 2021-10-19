@@ -19,7 +19,6 @@ class ContaCorrente
         this.numero = numero;
         this.saldo = saldo;
 
-
     }
 
     public override string ToString()
