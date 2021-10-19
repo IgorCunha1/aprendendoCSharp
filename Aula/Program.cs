@@ -7,19 +7,16 @@ namespace Aula
         static void Main(string[] args)
         {
 
-            ContaCorrente conta = new ContaCorrente("igor", 112, 123, 123.0);
-            ContaCorrente contaDois = new ContaCorrente("Joao", 112, 123, 123.99);
-            ContaCorrente contaTres = new ContaCorrente("Maria", 112, 123, 123.99);
-            ContaCorrente contaQuatro = new ContaCorrente("Jose", 112, 123, 123.99);
-            ContaCorrente contaCinco = new ContaCorrente("Igor", 112, 123, 123.99);
-            ContaCorrente contaSeis = new ContaCorrente("Larissa", 112, 123, 123.99);
-            ContaCorrente contaSete = new ContaCorrente("Monica", 112, 123, 123.99);
+            ContaCorrente conta = new ContaCorrente("igor", 112, 123, 200);
+            ContaCorrente contaDois = new ContaCorrente("Joao",11100, 22200,0);
 
-            ContaCorrente[] cc = { conta, contaDois, contaTres, contaQuatro, contaCinco, contaSeis, contaSete };
+            conta.transferir(contaDois, 100);
+
+            ContaCorrente[] cc = { conta, contaDois};
 
             foreach(ContaCorrente contas in cc)
             {
-                System.Console.Write(contas.ToString());
+                Console.WriteLine(contas.ToString());
             }
 
 

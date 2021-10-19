@@ -93,6 +93,7 @@ class ContaCorrente
     {
         if (this.saldo >= valor)
         {
+            this.saldo -= valor;
             contaDestino.Depositar(valor);
         }
         else
