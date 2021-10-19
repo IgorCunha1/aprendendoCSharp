@@ -89,6 +89,18 @@ class ContaCorrente
         }
     }
 
+    public void transferir(ContaCorrente contaDestino, double valor)
+    {
+        if (this.saldo >= valor)
+        {
+            contaDestino.Depositar(valor);
+        }
+        else
+        {
+            Console.WriteLine("Valor maior do que o saldo em conta.");
+        }
+    }
+
 
 
 
