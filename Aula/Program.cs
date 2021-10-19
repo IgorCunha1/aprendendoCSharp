@@ -13,8 +13,9 @@ namespace Aula
             ContaCorrente contaQuatro = new ContaCorrente("Jose", 112, 123, 123.99);
             ContaCorrente contaCinco = new ContaCorrente("Igor", 112, 123, 123.99);
             ContaCorrente contaSeis = new ContaCorrente("Larissa", 112, 123, 123.99);
+            ContaCorrente contaSete = new ContaCorrente("Monica", 112, 123, 123.99);
 
-            ContaCorrente[] cc = { conta, contaDois, contaTres, contaQuatro, contaCinco, contaSeis };
+            ContaCorrente[] cc = { conta, contaDois, contaTres, contaQuatro, contaCinco, contaSeis, contaSete };
 
             foreach(ContaCorrente contas in cc)
             {
