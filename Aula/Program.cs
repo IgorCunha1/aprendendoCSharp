@@ -7,18 +7,13 @@ namespace Aula
         static void Main(string[] args)
         {
 
-            ContaCorrente conta = new ContaCorrente("igor", 112, 123, 200);
-            ContaCorrente contaDois = new ContaCorrente("Joao",11100, 22200,0);
+            Cliente igor = new Cliente();
+            igor.setNome("Igor");
+            igor.setCpf("076.252.694-77");
+            igor.setProfissao("DEV");
+            ContaCorrente conta = new ContaCorrente(igor, 111,222,100.00);
 
-            conta.transferir(contaDois, 100);
-
-            ContaCorrente[] cc = { conta, contaDois};
-
-            foreach(ContaCorrente contas in cc)
-            {
-                Console.WriteLine(contas.ToString());
-            }
-
+            Console.WriteLine(conta.getTitular());
 
         }
     }
